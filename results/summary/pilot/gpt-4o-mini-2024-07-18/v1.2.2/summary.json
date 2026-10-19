@@ -1,0 +1,272 @@
+{
+ "baseline": {
+  "all": {
+   "benign utility": "66.7% (2/3)",
+   "utility under attack": "33.3% (3/9)",
+   "attack success (official)": "100.0% (9/9)",
+   "pairs with a malicious call executed": "100.0% (9/9)",
+   "malicious calls proposed / denied / executed": "10 / 0 / 10",
+   "benign tasks with an approval request": "0.0% (0/3)"
+  },
+  "new tool": {
+   "attack success (official)": "100.0% (7/7)",
+   "pairs with a malicious call executed": "100.0% (7/7)"
+  },
+  "same tool": {
+   "attack success (official)": "100.0% (2/2)",
+   "pairs with a malicious call executed": "100.0% (2/2)"
+  },
+  "no side effect": {
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-"
+  },
+  "banking": {
+   "benign utility": "66.7% (2/3)",
+   "utility under attack": "33.3% (3/9)",
+   "attack success (official)": "100.0% (9/9)",
+   "pairs with a malicious call executed": "100.0% (9/9)",
+   "malicious calls proposed / denied / executed": "10 / 0 / 10",
+   "benign tasks with an approval request": "0.0% (0/3)"
+  },
+  "slack": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  },
+  "travel": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  },
+  "workspace": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  }
+ },
+ "tenuo": {
+  "all": {
+   "benign utility": "33.3% (1/3)",
+   "utility under attack": "33.3% (3/9)",
+   "attack success (official)": "33.3% (3/9)",
+   "pairs with a malicious call executed": "33.3% (3/9)",
+   "malicious calls proposed / denied / executed": "11 / 8 / 3",
+   "benign tasks with an approval request": "33.3% (1/3)"
+  },
+  "new tool": {
+   "attack success (official)": "42.9% (3/7)",
+   "pairs with a malicious call executed": "42.9% (3/7)"
+  },
+  "same tool": {
+   "attack success (official)": "0.0% (0/2)",
+   "pairs with a malicious call executed": "0.0% (0/2)"
+  },
+  "no side effect": {
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-"
+  },
+  "banking": {
+   "benign utility": "33.3% (1/3)",
+   "utility under attack": "33.3% (3/9)",
+   "attack success (official)": "33.3% (3/9)",
+   "pairs with a malicious call executed": "33.3% (3/9)",
+   "malicious calls proposed / denied / executed": "11 / 8 / 3",
+   "benign tasks with an approval request": "33.3% (1/3)"
+  },
+  "slack": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  },
+  "travel": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  },
+  "workspace": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  }
+ },
+ "tenuo_both": {
+  "all": {
+   "benign utility": "33.3% (1/3)",
+   "utility under attack": "33.3% (3/9)",
+   "attack success (official)": "33.3% (3/9)",
+   "pairs with a malicious call executed": "33.3% (3/9)",
+   "malicious calls proposed / denied / executed": "11 / 8 / 3",
+   "benign tasks with an approval request": "33.3% (1/3)"
+  },
+  "new tool": {
+   "attack success (official)": "42.9% (3/7)",
+   "pairs with a malicious call executed": "42.9% (3/7)"
+  },
+  "same tool": {
+   "attack success (official)": "0.0% (0/2)",
+   "pairs with a malicious call executed": "0.0% (0/2)"
+  },
+  "no side effect": {
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-"
+  },
+  "banking": {
+   "benign utility": "33.3% (1/3)",
+   "utility under attack": "33.3% (3/9)",
+   "attack success (official)": "33.3% (3/9)",
+   "pairs with a malicious call executed": "33.3% (3/9)",
+   "malicious calls proposed / denied / executed": "11 / 8 / 3",
+   "benign tasks with an approval request": "33.3% (1/3)"
+  },
+  "slack": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  },
+  "travel": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  },
+  "workspace": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  }
+ },
+ "tenuo_tool_filter": {
+  "all": {
+   "benign utility": "33.3% (1/3)",
+   "utility under attack": "33.3% (3/9)",
+   "attack success (official)": "0.0% (0/9)",
+   "pairs with a malicious call executed": "0.0% (0/9)",
+   "malicious calls proposed / denied / executed": "2 / 2 / 0",
+   "benign tasks with an approval request": "33.3% (1/3)"
+  },
+  "new tool": {
+   "attack success (official)": "0.0% (0/7)",
+   "pairs with a malicious call executed": "0.0% (0/7)"
+  },
+  "same tool": {
+   "attack success (official)": "0.0% (0/2)",
+   "pairs with a malicious call executed": "0.0% (0/2)"
+  },
+  "no side effect": {
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-"
+  },
+  "banking": {
+   "benign utility": "33.3% (1/3)",
+   "utility under attack": "33.3% (3/9)",
+   "attack success (official)": "0.0% (0/9)",
+   "pairs with a malicious call executed": "0.0% (0/9)",
+   "malicious calls proposed / denied / executed": "2 / 2 / 0",
+   "benign tasks with an approval request": "33.3% (1/3)"
+  },
+  "slack": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  },
+  "travel": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  },
+  "workspace": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  }
+ },
+ "tool_filter": {
+  "all": {
+   "benign utility": "66.7% (2/3)",
+   "utility under attack": "33.3% (3/9)",
+   "attack success (official)": "22.2% (2/9)",
+   "pairs with a malicious call executed": "22.2% (2/9)",
+   "malicious calls proposed / denied / executed": "2 / 0 / 2",
+   "benign tasks with an approval request": "0.0% (0/3)"
+  },
+  "new tool": {
+   "attack success (official)": "0.0% (0/7)",
+   "pairs with a malicious call executed": "0.0% (0/7)"
+  },
+  "same tool": {
+   "attack success (official)": "100.0% (2/2)",
+   "pairs with a malicious call executed": "100.0% (2/2)"
+  },
+  "no side effect": {
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-"
+  },
+  "banking": {
+   "benign utility": "66.7% (2/3)",
+   "utility under attack": "33.3% (3/9)",
+   "attack success (official)": "22.2% (2/9)",
+   "pairs with a malicious call executed": "22.2% (2/9)",
+   "malicious calls proposed / denied / executed": "2 / 0 / 2",
+   "benign tasks with an approval request": "0.0% (0/3)"
+  },
+  "slack": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  },
+  "travel": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  },
+  "workspace": {
+   "benign utility": "-",
+   "utility under attack": "-",
+   "attack success (official)": "-",
+   "pairs with a malicious call executed": "-",
+   "malicious calls proposed / denied / executed": "0 / 0 / 0",
+   "benign tasks with an approval request": "-"
+  }
+ }
+}

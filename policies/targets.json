@@ -1,0 +1,618 @@
+{
+ "banking": {
+  "get_balance": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_iban": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_most_recent_transactions": {
+   "params": [
+    "n"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_scheduled_transactions": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_user_info": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "read_file": {
+   "params": [
+    "file_path"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "schedule_transaction": {
+   "params": [
+    "amount",
+    "date",
+    "recipient",
+    "recurring",
+    "subject"
+   ],
+   "side_effect": true,
+   "targets": [
+    "recipient"
+   ]
+  },
+  "send_money": {
+   "params": [
+    "amount",
+    "date",
+    "recipient",
+    "subject"
+   ],
+   "side_effect": true,
+   "targets": [
+    "recipient"
+   ]
+  },
+  "update_password": {
+   "params": [
+    "password"
+   ],
+   "side_effect": true,
+   "targets": []
+  },
+  "update_scheduled_transaction": {
+   "params": [
+    "amount",
+    "date",
+    "id",
+    "recipient",
+    "recurring",
+    "subject"
+   ],
+   "side_effect": true,
+   "targets": [
+    "recipient"
+   ]
+  },
+  "update_user_info": {
+   "params": [
+    "city",
+    "first_name",
+    "last_name",
+    "street"
+   ],
+   "side_effect": true,
+   "targets": []
+  }
+ },
+ "slack": {
+  "add_user_to_channel": {
+   "params": [
+    "channel",
+    "user"
+   ],
+   "side_effect": true,
+   "targets": [
+    "channel",
+    "user"
+   ]
+  },
+  "get_channels": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_users_in_channel": {
+   "params": [
+    "channel"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_webpage": {
+   "params": [
+    "url"
+   ],
+   "side_effect": true,
+   "targets": [
+    "url"
+   ]
+  },
+  "invite_user_to_slack": {
+   "params": [
+    "user",
+    "user_email"
+   ],
+   "side_effect": true,
+   "targets": [
+    "user",
+    "user_email"
+   ]
+  },
+  "post_webpage": {
+   "params": [
+    "content",
+    "url"
+   ],
+   "side_effect": true,
+   "targets": [
+    "url"
+   ]
+  },
+  "read_channel_messages": {
+   "params": [
+    "channel"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "read_inbox": {
+   "params": [
+    "user"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "remove_user_from_slack": {
+   "params": [
+    "user"
+   ],
+   "side_effect": true,
+   "targets": [
+    "user"
+   ]
+  },
+  "send_channel_message": {
+   "params": [
+    "body",
+    "channel"
+   ],
+   "side_effect": true,
+   "targets": [
+    "channel"
+   ]
+  },
+  "send_direct_message": {
+   "params": [
+    "body",
+    "recipient"
+   ],
+   "side_effect": true,
+   "targets": [
+    "recipient"
+   ]
+  }
+ },
+ "travel": {
+  "cancel_calendar_event": {
+   "params": [
+    "event_id"
+   ],
+   "side_effect": true,
+   "targets": [
+    "event_id"
+   ]
+  },
+  "check_restaurant_opening_hours": {
+   "params": [
+    "restaurant_names"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "create_calendar_event": {
+   "params": [
+    "description",
+    "end_time",
+    "location",
+    "participants",
+    "start_time",
+    "title"
+   ],
+   "side_effect": true,
+   "targets": [
+    "participants"
+   ]
+  },
+  "get_all_car_rental_companies_in_city": {
+   "params": [
+    "city"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_all_hotels_in_city": {
+   "params": [
+    "city"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_all_restaurants_in_city": {
+   "params": [
+    "city"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_car_fuel_options": {
+   "params": [
+    "company_name"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_car_price_per_day": {
+   "params": [
+    "company_name"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_car_rental_address": {
+   "params": [
+    "company_name"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_car_types_available": {
+   "params": [
+    "company_name"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_contact_information_for_restaurants": {
+   "params": [
+    "restaurant_names"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_cuisine_type_for_restaurants": {
+   "params": [
+    "restaurant_names"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_day_calendar_events": {
+   "params": [
+    "day"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_dietary_restrictions_for_all_restaurants": {
+   "params": [
+    "restaurant_names"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_flight_information": {
+   "params": [
+    "arrival_city",
+    "departure_city"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_hotels_address": {
+   "params": [
+    "hotel_name"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_hotels_prices": {
+   "params": [
+    "hotel_names"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_price_for_restaurants": {
+   "params": [
+    "restaurant_names"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_rating_reviews_for_car_rental": {
+   "params": [
+    "company_name"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_rating_reviews_for_hotels": {
+   "params": [
+    "hotel_names"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_rating_reviews_for_restaurants": {
+   "params": [
+    "restaurant_names"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_restaurants_address": {
+   "params": [
+    "restaurant_names"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_user_information": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "reserve_car_rental": {
+   "params": [
+    "company",
+    "end_time",
+    "start_time"
+   ],
+   "side_effect": true,
+   "targets": [
+    "company"
+   ]
+  },
+  "reserve_hotel": {
+   "params": [
+    "end_day",
+    "hotel",
+    "start_day"
+   ],
+   "side_effect": true,
+   "targets": [
+    "hotel"
+   ]
+  },
+  "reserve_restaurant": {
+   "params": [
+    "restaurant",
+    "start_time"
+   ],
+   "side_effect": true,
+   "targets": [
+    "restaurant"
+   ]
+  },
+  "search_calendar_events": {
+   "params": [
+    "date",
+    "query"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "send_email": {
+   "params": [
+    "attachments",
+    "bcc",
+    "body",
+    "cc",
+    "recipients",
+    "subject"
+   ],
+   "side_effect": true,
+   "targets": [
+    "bcc",
+    "cc",
+    "recipients"
+   ]
+  }
+ },
+ "workspace": {
+  "add_calendar_event_participants": {
+   "params": [
+    "event_id",
+    "participants"
+   ],
+   "side_effect": true,
+   "targets": [
+    "event_id",
+    "participants"
+   ]
+  },
+  "append_to_file": {
+   "params": [
+    "content",
+    "file_id"
+   ],
+   "side_effect": true,
+   "targets": [
+    "file_id"
+   ]
+  },
+  "cancel_calendar_event": {
+   "params": [
+    "event_id"
+   ],
+   "side_effect": true,
+   "targets": [
+    "event_id"
+   ]
+  },
+  "create_calendar_event": {
+   "params": [
+    "description",
+    "end_time",
+    "location",
+    "participants",
+    "start_time",
+    "title"
+   ],
+   "side_effect": true,
+   "targets": [
+    "participants"
+   ]
+  },
+  "create_file": {
+   "params": [
+    "content",
+    "filename"
+   ],
+   "side_effect": true,
+   "targets": []
+  },
+  "delete_email": {
+   "params": [
+    "email_id"
+   ],
+   "side_effect": true,
+   "targets": [
+    "email_id"
+   ]
+  },
+  "delete_file": {
+   "params": [
+    "file_id"
+   ],
+   "side_effect": true,
+   "targets": [
+    "file_id"
+   ]
+  },
+  "get_current_day": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_day_calendar_events": {
+   "params": [
+    "day"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_draft_emails": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_file_by_id": {
+   "params": [
+    "file_id"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_received_emails": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_sent_emails": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "get_unread_emails": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "list_files": {
+   "params": [],
+   "side_effect": false,
+   "targets": []
+  },
+  "reschedule_calendar_event": {
+   "params": [
+    "event_id",
+    "new_end_time",
+    "new_start_time"
+   ],
+   "side_effect": true,
+   "targets": [
+    "event_id"
+   ]
+  },
+  "search_calendar_events": {
+   "params": [
+    "date",
+    "query"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "search_contacts_by_email": {
+   "params": [
+    "query"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "search_contacts_by_name": {
+   "params": [
+    "query"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "search_emails": {
+   "params": [
+    "query",
+    "sender"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "search_files": {
+   "params": [
+    "query"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "search_files_by_filename": {
+   "params": [
+    "filename"
+   ],
+   "side_effect": false,
+   "targets": []
+  },
+  "send_email": {
+   "params": [
+    "attachments",
+    "bcc",
+    "body",
+    "cc",
+    "recipients",
+    "subject"
+   ],
+   "side_effect": true,
+   "targets": [
+    "bcc",
+    "cc",
+    "recipients"
+   ]
+  },
+  "share_file": {
+   "params": [
+    "email",
+    "file_id",
+    "permission"
+   ],
+   "side_effect": true,
+   "targets": [
+    "email",
+    "file_id"
+   ]
+  }
+ }
+}
