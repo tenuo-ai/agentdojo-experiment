@@ -23,6 +23,19 @@ approximate (see `scripts/analyze.py`), and `analysis/failure-taxonomy.md` has t
 - No executed attack bypassed a warrant; every one was inside what the issuer granted.
 - The cost is benign utility where the task picks its target from data (27 tasks in the prompt arm).
 
+## The 89 same-tool pairs
+
+`analysis/pairs_v1.2.2.json` classifies all 949 (user task, injection task) pairs. The same-tool pairs, where the
+injection only uses tools the user task already needs, are the 89 with category `2_same_tool_args_in_prompt` (2) or
+`3_same_tool_arg_differs` (87): banking 42, workspace 22, slack 19, travel 6.
+
+```bash
+jq '[.[] | select(.category | test("^[23]_"))]' analysis/pairs_v1.2.2.json
+```
+
+`analysis/classify_pairs.py` generates the file from the benchmark's reference solutions only; nothing in it feeds the
+issuer or the policy.
+
 ## Layout
 
 - `adapter/`: the issuer (`issuer.py`, sees only the prompt, the target table and the pre-attack directory) and
@@ -31,7 +44,8 @@ approximate (see `scripts/analyze.py`), and `analysis/failure-taxonomy.md` has t
 - `scripts/`: `run_arm.py` (one arm), `run_all.sh`, `resume.sh` (reruns unfinished arm/suite pairs),
   `analyze.py` (official and execution-aware metrics), `replay_reference.py` (offline bound).
 - `analysis/`: pair classification (`pairs_v1.2.2.json`), failure dump and taxonomy, discussion notes.
-- `results/raw/` (episode and audit logs) and `results/summary/` (CSV and JSON).
+- `results/archives/` (episode and audit logs as tarballs; `tar xzf <file> -C results/raw` restores `results/raw/`)
+  and `results/summary/` (CSV and JSON).
 - `upstream/`: drafts for Tenuo and AgentDojo issues. Filed: #910 (null), #967 (case folding).
 
 ## Running
