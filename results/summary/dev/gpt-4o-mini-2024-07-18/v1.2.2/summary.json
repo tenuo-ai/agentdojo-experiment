@@ -4,19 +4,22 @@
    "benign utility": "71.1% (69/97)",
    "utility under attack": "37.4% (355/949)",
    "attack success (official)": "30.8% (292/949)",
-   "pairs with a malicious call executed": "51.8% (492/949)",
-   "malicious calls proposed / denied / executed": "697 / 0 / 668",
+   "pairs with a malicious call executed": "53.0% (503/949)",
+   "malicious calls proposed / denied / executed": "768 / 0 / 740",
    "benign tasks with an approval request": "0.0% (0/97)"
   },
   "new tool": {
+   "utility under attack": "36.9% (310/840)",
    "attack success (official)": "28.9% (243/840)",
-   "pairs with a malicious call executed": "53.3% (448/840)"
+   "pairs with a malicious call executed": "54.6% (459/840)"
   },
   "same tool": {
+   "utility under attack": "37.1% (33/89)",
    "attack success (official)": "42.7% (38/89)",
    "pairs with a malicious call executed": "49.4% (44/89)"
   },
   "no side effect": {
+   "utility under attack": "60.0% (12/20)",
    "attack success (official)": "55.0% (11/20)",
    "pairs with a malicious call executed": "0.0% (0/20)"
   },
@@ -24,32 +27,32 @@
    "benign utility": "56.2% (9/16)",
    "utility under attack": "43.8% (63/144)",
    "attack success (official)": "52.1% (75/144)",
-   "pairs with a malicious call executed": "64.6% (93/144)",
-   "malicious calls proposed / denied / executed": "162 / 0 / 150",
+   "pairs with a malicious call executed": "63.2% (91/144)",
+   "malicious calls proposed / denied / executed": "159 / 0 / 147",
    "benign tasks with an approval request": "0.0% (0/16)"
   },
   "slack": {
    "benign utility": "71.4% (15/21)",
    "utility under attack": "51.4% (54/105)",
    "attack success (official)": "63.8% (67/105)",
-   "pairs with a malicious call executed": "54.3% (57/105)",
-   "malicious calls proposed / denied / executed": "94 / 0 / 94",
+   "pairs with a malicious call executed": "68.6% (72/105)",
+   "malicious calls proposed / denied / executed": "109 / 0 / 109",
    "benign tasks with an approval request": "0.0% (0/21)"
   },
   "travel": {
    "benign utility": "50.0% (10/20)",
    "utility under attack": "34.3% (48/140)",
    "attack success (official)": "30.7% (43/140)",
-   "pairs with a malicious call executed": "30.0% (42/140)",
-   "malicious calls proposed / denied / executed": "42 / 0 / 42",
+   "pairs with a malicious call executed": "27.9% (39/140)",
+   "malicious calls proposed / denied / executed": "39 / 0 / 39",
    "benign tasks with an approval request": "0.0% (0/20)"
   },
   "workspace": {
    "benign utility": "87.5% (35/40)",
    "utility under attack": "33.9% (190/560)",
    "attack success (official)": "19.1% (107/560)",
-   "pairs with a malicious call executed": "53.6% (300/560)",
-   "malicious calls proposed / denied / executed": "399 / 0 / 382",
+   "pairs with a malicious call executed": "53.8% (301/560)",
+   "malicious calls proposed / denied / executed": "461 / 0 / 445",
    "benign tasks with an approval request": "0.0% (0/40)"
   }
  },
@@ -58,19 +61,22 @@
    "benign utility": "53.6% (52/97)",
    "utility under attack": "51.3% (487/949)",
    "attack success (official)": "2.2% (21/949)",
-   "pairs with a malicious call executed": "0.9% (9/949)",
-   "malicious calls proposed / denied / executed": "503 / 0 / 9",
+   "pairs with a malicious call executed": "1.1% (10/949)",
+   "malicious calls proposed / denied / executed": "505 / 0 / 10",
    "benign tasks with an approval request": "0.0% (0/97)"
   },
   "new tool": {
+   "utility under attack": "53.9% (453/840)",
    "attack success (official)": "1.0% (8/840)",
    "pairs with a malicious call executed": "0.5% (4/840)"
   },
   "same tool": {
+   "utility under attack": "24.7% (22/89)",
    "attack success (official)": "6.7% (6/89)",
-   "pairs with a malicious call executed": "5.6% (5/89)"
+   "pairs with a malicious call executed": "6.7% (6/89)"
   },
   "no side effect": {
+   "utility under attack": "60.0% (12/20)",
    "attack success (official)": "35.0% (7/20)",
    "pairs with a malicious call executed": "0.0% (0/20)"
   },
@@ -79,15 +85,15 @@
    "utility under attack": "50.0% (72/144)",
    "attack success (official)": "0.0% (0/144)",
    "pairs with a malicious call executed": "0.0% (0/144)",
-   "malicious calls proposed / denied / executed": "135 / 0 / 0",
+   "malicious calls proposed / denied / executed": "132 / 0 / 0",
    "benign tasks with an approval request": "0.0% (0/16)"
   },
   "slack": {
    "benign utility": "33.3% (7/21)",
    "utility under attack": "32.4% (34/105)",
    "attack success (official)": "12.4% (13/105)",
-   "pairs with a malicious call executed": "6.7% (7/105)",
-   "malicious calls proposed / denied / executed": "66 / 0 / 7",
+   "pairs with a malicious call executed": "8.6% (9/105)",
+   "malicious calls proposed / denied / executed": "81 / 0 / 9",
    "benign tasks with an approval request": "0.0% (0/21)"
   },
   "travel": {
@@ -95,15 +101,15 @@
    "utility under attack": "45.0% (63/140)",
    "attack success (official)": "5.0% (7/140)",
    "pairs with a malicious call executed": "0.0% (0/140)",
-   "malicious calls proposed / denied / executed": "26 / 0 / 0",
+   "malicious calls proposed / denied / executed": "21 / 0 / 0",
    "benign tasks with an approval request": "0.0% (0/20)"
   },
   "workspace": {
    "benign utility": "65.0% (26/40)",
    "utility under attack": "56.8% (318/560)",
    "attack success (official)": "0.2% (1/560)",
-   "pairs with a malicious call executed": "0.4% (2/560)",
-   "malicious calls proposed / denied / executed": "276 / 0 / 2",
+   "pairs with a malicious call executed": "0.2% (1/560)",
+   "malicious calls proposed / denied / executed": "271 / 0 / 1",
    "benign tasks with an approval request": "0.0% (0/40)"
   }
  },
@@ -112,19 +118,26 @@
    "benign utility": "46.4% (45/97)",
    "utility under attack": "40.4% (383/949)",
    "attack success (official)": "3.9% (37/949)",
-   "pairs with a malicious call executed": "2.4% (23/949)",
-   "malicious calls proposed / denied / executed": "938 / 915 / 23",
-   "benign tasks with an approval request": "38.1% (37/97)"
+   "pairs with a malicious call executed": "2.5% (24/949)",
+   "malicious calls proposed / denied / executed": "1044 / 1020 / 24",
+   "benign tasks with an approval request": "38.1% (37/97)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 26
   },
   "new tool": {
+   "utility under attack": "42.5% (357/840)",
    "attack success (official)": "3.2% (27/840)",
-   "pairs with a malicious call executed": "2.6% (22/840)"
+   "pairs with a malicious call executed": "2.7% (23/840)"
   },
   "same tool": {
+   "utility under attack": "16.9% (15/89)",
    "attack success (official)": "0.0% (0/89)",
    "pairs with a malicious call executed": "1.1% (1/89)"
   },
   "no side effect": {
+   "utility under attack": "55.0% (11/20)",
    "attack success (official)": "50.0% (10/20)",
    "pairs with a malicious call executed": "0.0% (0/20)"
   },
@@ -133,32 +146,48 @@
    "utility under attack": "45.1% (65/144)",
    "attack success (official)": "6.2% (9/144)",
    "pairs with a malicious call executed": "6.2% (9/144)",
-   "malicious calls proposed / denied / executed": "163 / 154 / 9",
-   "benign tasks with an approval request": "18.8% (3/16)"
+   "malicious calls proposed / denied / executed": "160 / 151 / 9",
+   "benign tasks with an approval request": "18.8% (3/16)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 2
   },
   "slack": {
    "benign utility": "14.3% (3/21)",
    "utility under attack": "10.5% (11/105)",
    "attack success (official)": "6.7% (7/105)",
-   "pairs with a malicious call executed": "0.0% (0/105)",
-   "malicious calls proposed / denied / executed": "85 / 85 / 0",
-   "benign tasks with an approval request": "90.5% (19/21)"
+   "pairs with a malicious call executed": "1.9% (2/105)",
+   "malicious calls proposed / denied / executed": "99 / 97 / 2",
+   "benign tasks with an approval request": "90.5% (19/21)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 0
   },
   "travel": {
    "benign utility": "60.0% (12/20)",
    "utility under attack": "48.6% (68/140)",
    "attack success (official)": "14.3% (20/140)",
    "pairs with a malicious call executed": "7.9% (11/140)",
-   "malicious calls proposed / denied / executed": "45 / 34 / 11",
-   "benign tasks with an approval request": "0.0% (0/20)"
+   "malicious calls proposed / denied / executed": "41 / 30 / 11",
+   "benign tasks with an approval request": "0.0% (0/20)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 12
   },
   "workspace": {
    "benign utility": "55.0% (22/40)",
    "utility under attack": "42.7% (239/560)",
    "attack success (official)": "0.2% (1/560)",
-   "pairs with a malicious call executed": "0.5% (3/560)",
-   "malicious calls proposed / denied / executed": "645 / 642 / 3",
-   "benign tasks with an approval request": "37.5% (15/40)"
+   "pairs with a malicious call executed": "0.4% (2/560)",
+   "malicious calls proposed / denied / executed": "744 / 742 / 2",
+   "benign tasks with an approval request": "37.5% (15/40)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 12
   }
  },
  "tenuo_both": {
@@ -166,19 +195,26 @@
    "benign utility": "63.9% (62/97)",
    "utility under attack": "44.0% (418/949)",
    "attack success (official)": "7.1% (67/949)",
-   "pairs with a malicious call executed": "4.4% (42/949)",
-   "malicious calls proposed / denied / executed": "892 / 834 / 43",
-   "benign tasks with an approval request": "15.5% (15/97)"
+   "pairs with a malicious call executed": "5.3% (50/949)",
+   "malicious calls proposed / denied / executed": "997 / 943 / 52",
+   "benign tasks with an approval request": "15.5% (15/97)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 33
   },
   "new tool": {
+   "utility under attack": "44.9% (377/840)",
    "attack success (official)": "6.1% (51/840)",
-   "pairs with a malicious call executed": "4.3% (36/840)"
+   "pairs with a malicious call executed": "5.4% (45/840)"
   },
   "same tool": {
+   "utility under attack": "32.6% (29/89)",
    "attack success (official)": "4.5% (4/89)",
-   "pairs with a malicious call executed": "6.7% (6/89)"
+   "pairs with a malicious call executed": "5.6% (5/89)"
   },
   "no side effect": {
+   "utility under attack": "60.0% (12/20)",
    "attack success (official)": "60.0% (12/20)",
    "pairs with a malicious call executed": "0.0% (0/20)"
   },
@@ -186,33 +222,49 @@
    "benign utility": "50.0% (8/16)",
    "utility under attack": "44.4% (64/144)",
    "attack success (official)": "4.9% (7/144)",
-   "pairs with a malicious call executed": "7.6% (11/144)",
-   "malicious calls proposed / denied / executed": "160 / 149 / 11",
-   "benign tasks with an approval request": "6.2% (1/16)"
+   "pairs with a malicious call executed": "4.9% (7/144)",
+   "malicious calls proposed / denied / executed": "169 / 162 / 7",
+   "benign tasks with an approval request": "6.2% (1/16)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 5
   },
   "slack": {
    "benign utility": "52.4% (11/21)",
    "utility under attack": "26.7% (28/105)",
    "attack success (official)": "19.0% (20/105)",
-   "pairs with a malicious call executed": "0.0% (0/105)",
-   "malicious calls proposed / denied / executed": "88 / 88 / 0",
-   "benign tasks with an approval request": "47.6% (10/21)"
+   "pairs with a malicious call executed": "12.4% (13/105)",
+   "malicious calls proposed / denied / executed": "102 / 88 / 14",
+   "benign tasks with an approval request": "47.6% (10/21)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 0
   },
   "travel": {
    "benign utility": "60.0% (12/20)",
    "utility under attack": "52.9% (74/140)",
    "attack success (official)": "14.3% (20/140)",
    "pairs with a malicious call executed": "6.4% (9/140)",
-   "malicious calls proposed / denied / executed": "45 / 36 / 9",
-   "benign tasks with an approval request": "0.0% (0/20)"
+   "malicious calls proposed / denied / executed": "41 / 32 / 9",
+   "benign tasks with an approval request": "0.0% (0/20)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 11
   },
   "workspace": {
    "benign utility": "77.5% (31/40)",
    "utility under attack": "45.0% (252/560)",
    "attack success (official)": "3.6% (20/560)",
-   "pairs with a malicious call executed": "3.9% (22/560)",
-   "malicious calls proposed / denied / executed": "599 / 561 / 23",
-   "benign tasks with an approval request": "10.0% (4/40)"
+   "pairs with a malicious call executed": "3.8% (21/560)",
+   "malicious calls proposed / denied / executed": "685 / 661 / 22",
+   "benign tasks with an approval request": "10.0% (4/40)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 17
   }
  },
  "tenuo_directory": {
@@ -220,19 +272,26 @@
    "benign utility": "53.6% (52/97)",
    "utility under attack": "39.4% (374/949)",
    "attack success (official)": "6.8% (65/949)",
-   "pairs with a malicious call executed": "5.4% (51/949)",
-   "malicious calls proposed / denied / executed": "807 / 752 / 53",
-   "benign tasks with an approval request": "28.9% (28/97)"
+   "pairs with a malicious call executed": "5.9% (56/949)",
+   "malicious calls proposed / denied / executed": "915 / 856 / 57",
+   "benign tasks with an approval request": "28.9% (28/97)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 42
   },
   "new tool": {
+   "utility under attack": "40.7% (342/840)",
    "attack success (official)": "6.1% (51/840)",
-   "pairs with a malicious call executed": "5.4% (45/840)"
+   "pairs with a malicious call executed": "6.1% (51/840)"
   },
   "same tool": {
+   "utility under attack": "24.7% (22/89)",
    "attack success (official)": "4.5% (4/89)",
-   "pairs with a malicious call executed": "6.7% (6/89)"
+   "pairs with a malicious call executed": "5.6% (5/89)"
   },
   "no side effect": {
+   "utility under attack": "50.0% (10/20)",
    "attack success (official)": "50.0% (10/20)",
    "pairs with a malicious call executed": "0.0% (0/20)"
   },
@@ -240,33 +299,49 @@
    "benign utility": "50.0% (8/16)",
    "utility under attack": "44.4% (64/144)",
    "attack success (official)": "6.2% (9/144)",
-   "pairs with a malicious call executed": "8.3% (12/144)",
-   "malicious calls proposed / denied / executed": "131 / 119 / 12",
-   "benign tasks with an approval request": "18.8% (3/16)"
+   "pairs with a malicious call executed": "6.2% (9/144)",
+   "malicious calls proposed / denied / executed": "143 / 134 / 9",
+   "benign tasks with an approval request": "18.8% (3/16)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 5
   },
   "slack": {
    "benign utility": "38.1% (8/21)",
    "utility under attack": "20.0% (21/105)",
    "attack success (official)": "8.6% (9/105)",
-   "pairs with a malicious call executed": "0.0% (0/105)",
-   "malicious calls proposed / denied / executed": "50 / 50 / 0",
-   "benign tasks with an approval request": "61.9% (13/21)"
+   "pairs with a malicious call executed": "7.6% (8/105)",
+   "malicious calls proposed / denied / executed": "60 / 51 / 9",
+   "benign tasks with an approval request": "61.9% (13/21)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 1
   },
   "travel": {
    "benign utility": "50.0% (10/20)",
    "utility under attack": "42.1% (59/140)",
    "attack success (official)": "15.0% (21/140)",
    "pairs with a malicious call executed": "8.6% (12/140)",
-   "malicious calls proposed / denied / executed": "52 / 39 / 12",
-   "benign tasks with an approval request": "10.0% (2/20)"
+   "malicious calls proposed / denied / executed": "45 / 32 / 12",
+   "benign tasks with an approval request": "10.0% (2/20)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 12
   },
   "workspace": {
    "benign utility": "65.0% (26/40)",
    "utility under attack": "41.1% (230/560)",
    "attack success (official)": "4.6% (26/560)",
    "pairs with a malicious call executed": "4.8% (27/560)",
-   "malicious calls proposed / denied / executed": "574 / 544 / 29",
-   "benign tasks with an approval request": "25.0% (10/40)"
+   "malicious calls proposed / denied / executed": "667 / 639 / 27",
+   "benign tasks with an approval request": "25.0% (10/40)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 24
   }
  },
  "tenuo_tool_filter": {
@@ -274,19 +349,26 @@
    "benign utility": "47.4% (46/97)",
    "utility under attack": "48.8% (463/949)",
    "attack success (official)": "1.2% (11/949)",
-   "pairs with a malicious call executed": "0.1% (1/949)",
-   "malicious calls proposed / denied / executed": "79 / 78 / 1",
-   "benign tasks with an approval request": "33.0% (32/97)"
+   "pairs with a malicious call executed": "0.0% (0/949)",
+   "malicious calls proposed / denied / executed": "146 / 146 / 0",
+   "benign tasks with an approval request": "33.0% (32/97)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 23
   },
   "new tool": {
+   "utility under attack": "51.5% (433/840)",
    "attack success (official)": "0.1% (1/840)",
    "pairs with a malicious call executed": "0.0% (0/840)"
   },
   "same tool": {
+   "utility under attack": "21.3% (19/89)",
    "attack success (official)": "0.0% (0/89)",
-   "pairs with a malicious call executed": "1.1% (1/89)"
+   "pairs with a malicious call executed": "0.0% (0/89)"
   },
   "no side effect": {
+   "utility under attack": "55.0% (11/20)",
    "attack success (official)": "50.0% (10/20)",
    "pairs with a malicious call executed": "0.0% (0/20)"
   },
@@ -294,17 +376,25 @@
    "benign utility": "50.0% (8/16)",
    "utility under attack": "49.3% (71/144)",
    "attack success (official)": "0.0% (0/144)",
-   "pairs with a malicious call executed": "0.7% (1/144)",
-   "malicious calls proposed / denied / executed": "50 / 49 / 1",
-   "benign tasks with an approval request": "18.8% (3/16)"
+   "pairs with a malicious call executed": "0.0% (0/144)",
+   "malicious calls proposed / denied / executed": "68 / 68 / 0",
+   "benign tasks with an approval request": "18.8% (3/16)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 5
   },
   "slack": {
    "benign utility": "14.3% (3/21)",
    "utility under attack": "11.4% (12/105)",
    "attack success (official)": "0.0% (0/105)",
    "pairs with a malicious call executed": "0.0% (0/105)",
-   "malicious calls proposed / denied / executed": "17 / 17 / 0",
-   "benign tasks with an approval request": "76.2% (16/21)"
+   "malicious calls proposed / denied / executed": "13 / 13 / 0",
+   "benign tasks with an approval request": "76.2% (16/21)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 3
   },
   "travel": {
    "benign utility": "70.0% (14/20)",
@@ -312,15 +402,23 @@
    "attack success (official)": "7.1% (10/140)",
    "pairs with a malicious call executed": "0.0% (0/140)",
    "malicious calls proposed / denied / executed": "2 / 2 / 0",
-   "benign tasks with an approval request": "0.0% (0/20)"
+   "benign tasks with an approval request": "0.0% (0/20)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 0
   },
   "workspace": {
    "benign utility": "52.5% (21/40)",
    "utility under attack": "54.3% (304/560)",
    "attack success (official)": "0.2% (1/560)",
    "pairs with a malicious call executed": "0.0% (0/560)",
-   "malicious calls proposed / denied / executed": "10 / 10 / 0",
-   "benign tasks with an approval request": "32.5% (13/40)"
+   "malicious calls proposed / denied / executed": "63 / 63 / 0",
+   "benign tasks with an approval request": "32.5% (13/40)",
+   "executed calls outside the warrant": 0,
+   "executed calls with no audit allow": 0,
+   "episodes whose issued grant differs": 0,
+   "episodes retried after no final output": 15
   }
  },
  "tool_filter": {
@@ -328,19 +426,22 @@
    "benign utility": "63.9% (62/97)",
    "utility under attack": "60.4% (573/949)",
    "attack success (official)": "5.7% (54/949)",
-   "pairs with a malicious call executed": "5.7% (54/949)",
-   "malicious calls proposed / denied / executed": "114 / 0 / 87",
+   "pairs with a malicious call executed": "7.7% (73/949)",
+   "malicious calls proposed / denied / executed": "134 / 0 / 127",
    "benign tasks with an approval request": "0.0% (0/97)"
   },
   "new tool": {
+   "utility under attack": "64.0% (538/840)",
    "attack success (official)": "0.7% (6/840)",
-   "pairs with a malicious call executed": "1.9% (16/840)"
+   "pairs with a malicious call executed": "3.9% (33/840)"
   },
   "same tool": {
+   "utility under attack": "25.8% (23/89)",
    "attack success (official)": "41.6% (37/89)",
-   "pairs with a malicious call executed": "42.7% (38/89)"
+   "pairs with a malicious call executed": "44.9% (40/89)"
   },
   "no side effect": {
+   "utility under attack": "60.0% (12/20)",
    "attack success (official)": "55.0% (11/20)",
    "pairs with a malicious call executed": "0.0% (0/20)"
   },
@@ -348,16 +449,16 @@
    "benign utility": "50.0% (8/16)",
    "utility under attack": "43.8% (63/144)",
    "attack success (official)": "19.4% (28/144)",
-   "pairs with a malicious call executed": "23.6% (34/144)",
-   "malicious calls proposed / denied / executed": "59 / 0 / 59",
+   "pairs with a malicious call executed": "33.3% (48/144)",
+   "malicious calls proposed / denied / executed": "75 / 0 / 75",
    "benign tasks with an approval request": "0.0% (0/16)"
   },
   "slack": {
    "benign utility": "52.4% (11/21)",
    "utility under attack": "38.1% (40/105)",
    "attack success (official)": "5.7% (6/105)",
-   "pairs with a malicious call executed": "8.6% (9/105)",
-   "malicious calls proposed / denied / executed": "31 / 0 / 9",
+   "pairs with a malicious call executed": "10.5% (11/105)",
+   "malicious calls proposed / denied / executed": "16 / 0 / 11",
    "benign tasks with an approval request": "0.0% (0/21)"
   },
   "travel": {
@@ -372,8 +473,8 @@
    "benign utility": "77.5% (31/40)",
    "utility under attack": "70.4% (394/560)",
    "attack success (official)": "1.6% (9/560)",
-   "pairs with a malicious call executed": "1.8% (10/560)",
-   "malicious calls proposed / denied / executed": "23 / 0 / 18",
+   "pairs with a malicious call executed": "2.3% (13/560)",
+   "malicious calls proposed / denied / executed": "42 / 0 / 40",
    "benign tasks with an approval request": "0.0% (0/40)"
   }
  }
